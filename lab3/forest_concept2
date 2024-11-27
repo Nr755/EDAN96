@@ -1,0 +1,48 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: humidity
+mse: 0.5675000000000001
+samples: 4"]
+	1 [label="
+id: 1
+splitValue: normal
+mse: 0.0
+samples: 1
+avgValue: 0.9"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: high
+nextSplitAttribute: waterTemp
+mse: 0.32666666666666666
+samples: 3"]
+	0 -> 2
+	3 [label="
+id: 3
+splitValue: warm
+nextSplitAttribute: wind
+mse: 0.32666666666666666
+samples: 3"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: strong
+mse: 0.32666666666666666
+samples: 3
+avgValue: 0.3333333333333333"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: weak
+samples: 0
+avgValue: 0.0"]
+	3 -> 5
+	6 [label="
+id: 6
+splitValue: cool
+samples: 0
+avgValue: 0.0"]
+	2 -> 6
+}

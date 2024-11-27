@@ -1,0 +1,54 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: sky
+mse: 0.36750000000000005
+samples: 4"]
+	1 [label="
+id: 1
+splitValue: sunny
+mse: 0.0
+samples: 1
+avgValue: 0.8"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: cloudy
+samples: 0
+avgValue: 0.0"]
+	0 -> 2
+	3 [label="
+id: 3
+splitValue: rainy
+nextSplitAttribute: airTemp
+mse: 5.7777898331617076e-34
+samples: 3"]
+	0 -> 3
+	4 [label="
+id: 4
+splitValue: warm
+samples: 0
+avgValue: 0.0"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: cold
+nextSplitAttribute: waterTemp
+mse: 5.7777898331617076e-34
+samples: 3"]
+	3 -> 5
+	6 [label="
+id: 6
+splitValue: warm
+mse: 5.7777898331617076e-34
+samples: 3
+avgValue: 0.10000000000000002"]
+	5 -> 6
+	7 [label="
+id: 7
+splitValue: cool
+samples: 0
+avgValue: 0.0"]
+	5 -> 7
+}

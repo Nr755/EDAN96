@@ -1,0 +1,1966 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19741.019588259776
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 3805.207762683417
+samples: 6133"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: HouseAge
+mse: 1867.6261570689248
+samples: 3101"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: Population
+mse: 151.46214604542695
+samples: 308"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+mse: 86.1808502440024
+samples: 124
+avgValue: 1.466234112903226"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 1
+mse: 59.29037359493671
+samples: 158
+avgValue: 1.4940506329113925"]
+	3 -> 5
+	6 [label="
+id: 6
+splitValue: 2
+mse: 5.502004153846155
+samples: 26
+avgValue: 1.346615384615385"]
+	3 -> 6
+	7 [label="
+id: 7
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	3 -> 7
+	8 [label="
+id: 8
+splitValue: 1
+nextSplitAttribute: Population
+mse: 570.0237329255853
+samples: 868"]
+	2 -> 8
+	9 [label="
+id: 9
+splitValue: 0
+mse: 348.1761631231444
+samples: 475
+avgValue: 1.5637222736842107"]
+	8 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+mse: 205.10221922766567
+samples: 347
+avgValue: 1.6956974063400574"]
+	8 -> 10
+	11 [label="
+id: 11
+splitValue: 2
+mse: 13.179395499999998
+samples: 46
+avgValue: 1.6605000000000003"]
+	8 -> 11
+	12 [label="
+id: 12
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	8 -> 12
+	13 [label="
+id: 13
+splitValue: 2
+nextSplitAttribute: Population
+mse: 656.8823370962214
+samples: 1193"]
+	2 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+mse: 486.55114950797474
+samples: 753
+avgValue: 1.6174130544488714"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+mse: 169.79249810461977
+samples: 435
+avgValue: 1.6130506436781609"]
+	13 -> 15
+	16 [label="
+id: 16
+splitValue: 2
+mse: 0.30417519999999987
+samples: 5
+avgValue: 1.8303999999999998"]
+	13 -> 16
+	17 [label="
+id: 17
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	13 -> 17
+	18 [label="
+id: 18
+splitValue: 3
+nextSplitAttribute: Population
+mse: 482.6676658723306
+samples: 732"]
+	2 -> 18
+	19 [label="
+id: 19
+splitValue: 0
+mse: 416.6816217681993
+samples: 585
+avgValue: 1.6496461880341882"]
+	18 -> 19
+	20 [label="
+id: 20
+splitValue: 1
+mse: 63.21909538129496
+samples: 139
+avgValue: 1.5541079136690648"]
+	18 -> 20
+	21 [label="
+id: 21
+splitValue: 2
+mse: 1.1294220000000001
+samples: 8
+avgValue: 1.9095"]
+	18 -> 21
+	22 [label="
+id: 22
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	18 -> 22
+	23 [label="
+id: 23
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 337.1405954273406
+samples: 815"]
+	1 -> 23
+	24 [label="
+id: 24
+splitValue: 0
+nextSplitAttribute: Population
+mse: 14.728439457446807
+samples: 94"]
+	23 -> 24
+	25 [label="
+id: 25
+splitValue: 0
+mse: 8.217241586206894
+samples: 58
+avgValue: 0.8722758620689656"]
+	24 -> 25
+	26 [label="
+id: 26
+splitValue: 1
+mse: 5.2938418571428585
+samples: 28
+avgValue: 0.9649285714285715"]
+	24 -> 26
+	27 [label="
+id: 27
+splitValue: 2
+mse: 0.935379714285714
+samples: 7
+avgValue: 0.9835714285714284"]
+	24 -> 27
+	28 [label="
+id: 28
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 1.188"]
+	24 -> 28
+	29 [label="
+id: 29
+splitValue: 1
+nextSplitAttribute: Population
+mse: 173.29682951299867
+samples: 300"]
+	23 -> 29
+	30 [label="
+id: 30
+splitValue: 0
+mse: 143.44700475076593
+samples: 229
+avgValue: 1.0919082096069868"]
+	29 -> 30
+	31 [label="
+id: 31
+splitValue: 1
+mse: 28.75826088135593
+samples: 59
+avgValue: 1.046322033898305"]
+	29 -> 31
+	32 [label="
+id: 32
+splitValue: 2
+mse: 0.9932709166666666
+samples: 12
+avgValue: 1.0909166666666668"]
+	29 -> 32
+	33 [label="
+id: 33
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	29 -> 33
+	34 [label="
+id: 34
+splitValue: 2
+nextSplitAttribute: Population
+mse: 92.96205626086957
+samples: 322"]
+	23 -> 34
+	35 [label="
+id: 35
+splitValue: 0
+mse: 70.9195008973384
+samples: 263
+avgValue: 0.8402623574144487"]
+	34 -> 35
+	36 [label="
+id: 36
+splitValue: 1
+mse: 21.414884033898307
+samples: 59
+avgValue: 0.9543898305084745"]
+	34 -> 36
+	37 [label="
+id: 37
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	34 -> 37
+	38 [label="
+id: 38
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	34 -> 38
+	39 [label="
+id: 39
+splitValue: 3
+nextSplitAttribute: Population
+mse: 47.460793656565656
+samples: 99"]
+	23 -> 39
+	40 [label="
+id: 40
+splitValue: 0
+mse: 42.765679566265064
+samples: 83
+avgValue: 1.1050722891566265"]
+	39 -> 40
+	41 [label="
+id: 41
+splitValue: 1
+mse: 3.4746479375
+samples: 16
+avgValue: 0.8034375"]
+	39 -> 41
+	42 [label="
+id: 42
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	39 -> 42
+	43 [label="
+id: 43
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	39 -> 43
+	44 [label="
+id: 44
+splitValue: 2
+nextSplitAttribute: HouseAge
+mse: 1111.112096732515
+samples: 1639"]
+	1 -> 44
+	45 [label="
+id: 45
+splitValue: 0
+nextSplitAttribute: Population
+mse: 41.304758193333335
+samples: 150"]
+	44 -> 45
+	46 [label="
+id: 46
+splitValue: 0
+mse: 34.7302061
+samples: 90
+avgValue: 1.3572333333333333"]
+	45 -> 46
+	47 [label="
+id: 47
+splitValue: 1
+mse: 5.247557553571428
+samples: 56
+avgValue: 1.2635892857142859"]
+	45 -> 47
+	48 [label="
+id: 48
+splitValue: 2
+mse: 0.66580675
+samples: 4
+avgValue: 1.6247500000000001"]
+	45 -> 48
+	49 [label="
+id: 49
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	45 -> 49
+	50 [label="
+id: 50
+splitValue: 1
+nextSplitAttribute: Population
+mse: 178.27779450257734
+samples: 388"]
+	44 -> 50
+	51 [label="
+id: 51
+splitValue: 0
+mse: 145.3944468487085
+samples: 271
+avgValue: 1.3951734317343174"]
+	50 -> 51
+	52 [label="
+id: 52
+splitValue: 1
+mse: 30.204204160377355
+samples: 106
+avgValue: 1.3855566037735851"]
+	50 -> 52
+	53 [label="
+id: 53
+splitValue: 2
+mse: 2.5734387272727264
+samples: 11
+avgValue: 1.4885454545454544"]
+	50 -> 53
+	54 [label="
+id: 54
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	50 -> 54
+	55 [label="
+id: 55
+splitValue: 2
+nextSplitAttribute: Population
+mse: 243.0854695930902
+samples: 521"]
+	44 -> 55
+	56 [label="
+id: 56
+splitValue: 0
+mse: 178.08330434318185
+samples: 440
+avgValue: 1.2979613636363636"]
+	55 -> 56
+	57 [label="
+id: 57
+splitValue: 1
+mse: 56.69170898717949
+samples: 78
+avgValue: 1.6330128205128205"]
+	55 -> 57
+	58 [label="
+id: 58
+splitValue: 2
+mse: 0.773286
+samples: 3
+avgValue: 1.531"]
+	55 -> 58
+	59 [label="
+id: 59
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	55 -> 59
+	60 [label="
+id: 60
+splitValue: 3
+nextSplitAttribute: Population
+mse: 613.0388258075889
+samples: 580"]
+	44 -> 60
+	61 [label="
+id: 61
+splitValue: 0
+mse: 503.73609750269827
+samples: 511
+avgValue: 1.621190058708415"]
+	60 -> 61
+	62 [label="
+id: 62
+splitValue: 1
+mse: 99.95514298550725
+samples: 69
+avgValue: 2.0133188405797102"]
+	60 -> 62
+	63 [label="
+id: 63
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	60 -> 63
+	64 [label="
+id: 64
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	60 -> 64
+	65 [label="
+id: 65
+splitValue: 3
+nextSplitAttribute: HouseAge
+mse: 62.01752252595156
+samples: 578"]
+	1 -> 65
+	66 [label="
+id: 66
+splitValue: 0
+nextSplitAttribute: Population
+mse: 8.680752662162162
+samples: 74"]
+	65 -> 66
+	67 [label="
+id: 67
+splitValue: 0
+mse: 7.225969333333333
+samples: 54
+avgValue: 1.0754444444444444"]
+	66 -> 67
+	68 [label="
+id: 68
+splitValue: 1
+mse: 1.4107537647058823
+samples: 17
+avgValue: 1.0251176470588232"]
+	66 -> 68
+	69 [label="
+id: 69
+splitValue: 2
+mse: 0.0
+samples: 3
+avgValue: 1.126"]
+	66 -> 69
+	70 [label="
+id: 70
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	66 -> 70
+	71 [label="
+id: 71
+splitValue: 1
+nextSplitAttribute: Population
+mse: 31.79538930169491
+samples: 295"]
+	65 -> 71
+	72 [label="
+id: 72
+splitValue: 0
+mse: 28.538387639846746
+samples: 261
+avgValue: 0.9274214559386974"]
+	71 -> 72
+	73 [label="
+id: 73
+splitValue: 1
+mse: 2.967768
+samples: 33
+avgValue: 0.9670000000000001"]
+	71 -> 73
+	74 [label="
+id: 74
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 1.426"]
+	71 -> 74
+	75 [label="
+id: 75
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	71 -> 75
+	76 [label="
+id: 76
+splitValue: 2
+nextSplitAttribute: Population
+mse: 13.028308390410956
+samples: 146"]
+	65 -> 76
+	77 [label="
+id: 77
+splitValue: 0
+mse: 12.558361683453235
+samples: 139
+avgValue: 0.8242446043165467"]
+	76 -> 77
+	78 [label="
+id: 78
+splitValue: 1
+mse: 0.46084342857142874
+samples: 7
+avgValue: 0.7872857142857141"]
+	76 -> 78
+	79 [label="
+id: 79
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	76 -> 79
+	80 [label="
+id: 80
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	76 -> 80
+	81 [label="
+id: 81
+splitValue: 3
+nextSplitAttribute: Population
+mse: 4.901884857142856
+samples: 63"]
+	65 -> 81
+	82 [label="
+id: 82
+splitValue: 0
+mse: 4.487320877192982
+samples: 57
+avgValue: 0.8441929824561404"]
+	81 -> 82
+	83 [label="
+id: 83
+splitValue: 1
+mse: 0.012858833333333333
+samples: 6
+avgValue: 0.5721666666666667"]
+	81 -> 83
+	84 [label="
+id: 84
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	81 -> 84
+	85 [label="
+id: 85
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	81 -> 85
+	86 [label="
+id: 86
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 4912.131934566492
+samples: 5609"]
+	0 -> 86
+	87 [label="
+id: 87
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 376.30239889092115
+samples: 873"]
+	86 -> 87
+	88 [label="
+id: 88
+splitValue: 0
+nextSplitAttribute: Population
+mse: 209.04490251175872
+samples: 436"]
+	87 -> 88
+	89 [label="
+id: 89
+splitValue: 0
+mse: 116.95390958853125
+samples: 192
+avgValue: 1.9101615625"]
+	88 -> 89
+	90 [label="
+id: 90
+splitValue: 1
+mse: 66.65093499418604
+samples: 172
+avgValue: 1.8600058139534887"]
+	88 -> 90
+	91 [label="
+id: 91
+splitValue: 2
+mse: 25.102314444444442
+samples: 72
+avgValue: 1.843777777777778"]
+	88 -> 91
+	92 [label="
+id: 92
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	88 -> 92
+	93 [label="
+id: 93
+splitValue: 1
+nextSplitAttribute: Population
+mse: 31.878447846938776
+samples: 98"]
+	87 -> 93
+	94 [label="
+id: 94
+splitValue: 0
+mse: 7.3190306666666665
+samples: 48
+avgValue: 1.1288333333333334"]
+	93 -> 94
+	95 [label="
+id: 95
+splitValue: 1
+mse: 19.417874404761907
+samples: 42
+avgValue: 1.5484523809523811"]
+	93 -> 95
+	96 [label="
+id: 96
+splitValue: 2
+mse: 0.9789695
+samples: 8
+avgValue: 1.15225"]
+	93 -> 96
+	97 [label="
+id: 97
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	93 -> 97
+	98 [label="
+id: 98
+splitValue: 2
+nextSplitAttribute: Population
+mse: 99.16183428975265
+samples: 283"]
+	87 -> 98
+	99 [label="
+id: 99
+splitValue: 0
+mse: 59.56205121428572
+samples: 126
+avgValue: 1.7755476190476187"]
+	98 -> 99
+	100 [label="
+id: 100
+splitValue: 1
+mse: 35.04558378625954
+samples: 131
+avgValue: 1.8253053435114504"]
+	98 -> 100
+	101 [label="
+id: 101
+splitValue: 2
+mse: 3.5878719999999986
+samples: 26
+avgValue: 1.6159999999999999"]
+	98 -> 101
+	102 [label="
+id: 102
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	98 -> 102
+	103 [label="
+id: 103
+splitValue: 3
+nextSplitAttribute: Population
+mse: 6.713322839285716
+samples: 56"]
+	87 -> 103
+	104 [label="
+id: 104
+splitValue: 0
+mse: 6.082431346938777
+samples: 49
+avgValue: 1.5388163265306123"]
+	103 -> 104
+	105 [label="
+id: 105
+splitValue: 1
+mse: 0.28015799999999996
+samples: 6
+avgValue: 1.4160000000000001"]
+	103 -> 105
+	106 [label="
+id: 106
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 1.001"]
+	103 -> 106
+	107 [label="
+id: 107
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	103 -> 107
+	108 [label="
+id: 108
+splitValue: 1
+nextSplitAttribute: Latitude
+mse: 1106.002371771896
+samples: 1536"]
+	86 -> 108
+	109 [label="
+id: 109
+splitValue: 0
+nextSplitAttribute: Population
+mse: 604.8412131632313
+samples: 818"]
+	108 -> 109
+	110 [label="
+id: 110
+splitValue: 0
+mse: 408.33776992413334
+samples: 486
+avgValue: 2.238901481481481"]
+	109 -> 110
+	111 [label="
+id: 111
+splitValue: 1
+mse: 180.41392394266254
+samples: 291
+avgValue: 2.0819073539518897"]
+	109 -> 111
+	112 [label="
+id: 112
+splitValue: 2
+mse: 10.314973024390245
+samples: 41
+avgValue: 1.9982195121951218"]
+	109 -> 112
+	113 [label="
+id: 113
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	109 -> 113
+	114 [label="
+id: 114
+splitValue: 1
+nextSplitAttribute: Population
+mse: 97.34286292537314
+samples: 134"]
+	108 -> 114
+	115 [label="
+id: 115
+splitValue: 0
+mse: 72.89064158490565
+samples: 106
+avgValue: 1.6468490566037737"]
+	114 -> 115
+	116 [label="
+id: 116
+splitValue: 1
+mse: 23.36755142857143
+samples: 28
+avgValue: 1.868142857142857"]
+	114 -> 116
+	117 [label="
+id: 117
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	114 -> 117
+	118 [label="
+id: 118
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	114 -> 118
+	119 [label="
+id: 119
+splitValue: 2
+nextSplitAttribute: Population
+mse: 321.4456331956537
+samples: 506"]
+	108 -> 119
+	120 [label="
+id: 120
+splitValue: 0
+mse: 205.9634217750967
+samples: 302
+avgValue: 2.138453774834437"]
+	119 -> 120
+	121 [label="
+id: 121
+splitValue: 1
+mse: 102.42461341578948
+samples: 190
+avgValue: 2.0905210526315785"]
+	119 -> 121
+	122 [label="
+id: 122
+splitValue: 2
+mse: 10.610683714285713
+samples: 14
+avgValue: 1.719857142857143"]
+	119 -> 122
+	123 [label="
+id: 123
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	119 -> 123
+	124 [label="
+id: 124
+splitValue: 3
+nextSplitAttribute: Population
+mse: 11.788042833333336
+samples: 78"]
+	108 -> 124
+	125 [label="
+id: 125
+splitValue: 0
+mse: 9.304956109090911
+samples: 55
+avgValue: 1.343872727272727"]
+	124 -> 125
+	126 [label="
+id: 126
+splitValue: 1
+mse: 2.4575273043478267
+samples: 23
+avgValue: 1.3041739130434782"]
+	124 -> 126
+	127 [label="
+id: 127
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	124 -> 127
+	128 [label="
+id: 128
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	124 -> 128
+	129 [label="
+id: 129
+splitValue: 2
+nextSplitAttribute: Latitude
+mse: 1612.5600004152595
+samples: 2067"]
+	86 -> 129
+	130 [label="
+id: 130
+splitValue: 0
+nextSplitAttribute: Population
+mse: 1053.3976854221244
+samples: 1381"]
+	129 -> 130
+	131 [label="
+id: 131
+splitValue: 0
+mse: 840.2810575689466
+samples: 1075
+avgValue: 2.246603088372093"]
+	130 -> 131
+	132 [label="
+id: 132
+splitValue: 1
+mse: 211.65638320133527
+samples: 303
+avgValue: 2.178076204620462"]
+	130 -> 132
+	133 [label="
+id: 133
+splitValue: 2
+mse: 0.2486726666666668
+samples: 3
+avgValue: 2.0473333333333334"]
+	130 -> 133
+	134 [label="
+id: 134
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	130 -> 134
+	135 [label="
+id: 135
+splitValue: 1
+nextSplitAttribute: Population
+mse: 89.94598175000002
+samples: 84"]
+	129 -> 135
+	136 [label="
+id: 136
+splitValue: 0
+mse: 54.55390978461539
+samples: 65
+avgValue: 1.7525846153846152"]
+	135 -> 136
+	137 [label="
+id: 137
+splitValue: 1
+mse: 33.87469252631578
+samples: 19
+avgValue: 2.0738421052631577"]
+	135 -> 137
+	138 [label="
+id: 138
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	135 -> 138
+	139 [label="
+id: 139
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	135 -> 139
+	140 [label="
+id: 140
+splitValue: 2
+nextSplitAttribute: Population
+mse: 423.48833472762624
+samples: 578"]
+	129 -> 140
+	141 [label="
+id: 141
+splitValue: 0
+mse: 326.0911915821347
+samples: 447
+avgValue: 2.105707136465324"]
+	140 -> 141
+	142 [label="
+id: 142
+splitValue: 1
+mse: 88.62495248914685
+samples: 126
+avgValue: 2.3822937301587297"]
+	140 -> 142
+	143 [label="
+id: 143
+splitValue: 2
+mse: 0.2866859999999998
+samples: 5
+avgValue: 2.608"]
+	140 -> 143
+	144 [label="
+id: 144
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	140 -> 144
+	145 [label="
+id: 145
+splitValue: 3
+nextSplitAttribute: Population
+mse: 1.4852759583333335
+samples: 24"]
+	129 -> 145
+	146 [label="
+id: 146
+splitValue: 0
+mse: 1.4654639130434783
+samples: 23
+avgValue: 1.0552173913043479"]
+	145 -> 146
+	147 [label="
+id: 147
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.199"]
+	145 -> 147
+	148 [label="
+id: 148
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	145 -> 148
+	149 [label="
+id: 149
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	145 -> 149
+	150 [label="
+id: 150
+splitValue: 3
+nextSplitAttribute: Latitude
+mse: 1300.5156708971888
+samples: 1133"]
+	86 -> 150
+	151 [label="
+id: 151
+splitValue: 0
+nextSplitAttribute: Population
+mse: 541.8077814089992
+samples: 540"]
+	150 -> 151
+	152 [label="
+id: 152
+splitValue: 0
+mse: 514.2978907603502
+samples: 519
+avgValue: 2.649659306358382"]
+	151 -> 152
+	153 [label="
+id: 153
+splitValue: 1
+mse: 27.080741238095243
+samples: 21
+avgValue: 2.7954761904761907"]
+	151 -> 153
+	154 [label="
+id: 154
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	151 -> 154
+	155 [label="
+id: 155
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	151 -> 155
+	156 [label="
+id: 156
+splitValue: 1
+nextSplitAttribute: Population
+mse: 33.567501718749995
+samples: 32"]
+	150 -> 156
+	157 [label="
+id: 157
+splitValue: 0
+mse: 26.678420137931035
+samples: 29
+avgValue: 1.9081724137931035"]
+	156 -> 157
+	158 [label="
+id: 158
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	156 -> 158
+	159 [label="
+id: 159
+splitValue: 2
+mse: 0.0
+samples: 3
+avgValue: 3.5"]
+	156 -> 159
+	160 [label="
+id: 160
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	156 -> 160
+	161 [label="
+id: 161
+splitValue: 2
+nextSplitAttribute: Population
+mse: 672.7649498631711
+samples: 555"]
+	150 -> 161
+	162 [label="
+id: 162
+splitValue: 0
+mse: 647.048062734012
+samples: 517
+avgValue: 2.8859214506769826"]
+	161 -> 162
+	163 [label="
+id: 163
+splitValue: 1
+mse: 17.288741891891892
+samples: 37
+avgValue: 2.5510540540540543"]
+	161 -> 163
+	164 [label="
+id: 164
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 5.00001"]
+	161 -> 164
+	165 [label="
+id: 165
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	161 -> 165
+	166 [label="
+id: 166
+splitValue: 3
+nextSplitAttribute: Population
+mse: 0.2624733333333333
+samples: 6"]
+	150 -> 166
+	167 [label="
+id: 167
+splitValue: 0
+mse: 0.2624733333333333
+samples: 6
+avgValue: 0.7236666666666668"]
+	166 -> 167
+	168 [label="
+id: 168
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	166 -> 168
+	169 [label="
+id: 169
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	166 -> 169
+	170 [label="
+id: 170
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	166 -> 170
+	171 [label="
+id: 171
+splitValue: 2
+nextSplitAttribute: HouseAge
+mse: 2434.572827968417
+samples: 2364"]
+	0 -> 171
+	172 [label="
+id: 172
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 335.6001986953105
+samples: 427"]
+	171 -> 172
+	173 [label="
+id: 173
+splitValue: 0
+nextSplitAttribute: Population
+mse: 174.15385714128143
+samples: 264"]
+	172 -> 173
+	174 [label="
+id: 174
+splitValue: 0
+mse: 90.51424534427338
+samples: 139
+avgValue: 2.941475107913669"]
+	173 -> 174
+	175 [label="
+id: 175
+splitValue: 1
+mse: 65.86478999772358
+samples: 89
+avgValue: 2.9107760674157306"]
+	173 -> 175
+	176 [label="
+id: 176
+splitValue: 2
+mse: 17.504410972222225
+samples: 36
+avgValue: 3.013472222222222"]
+	173 -> 176
+	177 [label="
+id: 177
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	173 -> 177
+	178 [label="
+id: 178
+splitValue: 1
+nextSplitAttribute: Population
+mse: 43.39838129359999
+samples: 27"]
+	172 -> 178
+	179 [label="
+id: 179
+splitValue: 0
+mse: 35.03770561201177
+samples: 17
+avgValue: 1.9358841176470591"]
+	178 -> 179
+	180 [label="
+id: 180
+splitValue: 1
+mse: 8.341687599999998
+samples: 10
+avgValue: 1.9908000000000001"]
+	178 -> 180
+	181 [label="
+id: 181
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	178 -> 181
+	182 [label="
+id: 182
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	178 -> 182
+	183 [label="
+id: 183
+splitValue: 2
+nextSplitAttribute: Population
+mse: 90.35048895777274
+samples: 132"]
+	172 -> 183
+	184 [label="
+id: 184
+splitValue: 0
+mse: 44.742519415283326
+samples: 54
+avgValue: 2.756092777777778"]
+	183 -> 184
+	185 [label="
+id: 185
+splitValue: 1
+mse: 36.64021417386885
+samples: 61
+avgValue: 2.902787049180328"]
+	183 -> 185
+	186 [label="
+id: 186
+splitValue: 2
+mse: 8.295980941176472
+samples: 17
+avgValue: 2.895058823529412"]
+	183 -> 186
+	187 [label="
+id: 187
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	183 -> 187
+	188 [label="
+id: 188
+splitValue: 3
+nextSplitAttribute: Population
+mse: 0.38709475000000004
+samples: 4"]
+	172 -> 188
+	189 [label="
+id: 189
+splitValue: 0
+mse: 0.38709475000000004
+samples: 4
+avgValue: 1.90025"]
+	188 -> 189
+	190 [label="
+id: 190
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	188 -> 190
+	191 [label="
+id: 191
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	188 -> 191
+	192 [label="
+id: 192
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	188 -> 192
+	193 [label="
+id: 193
+splitValue: 1
+nextSplitAttribute: Latitude
+mse: 784.4364883894198
+samples: 986"]
+	171 -> 193
+	194 [label="
+id: 194
+splitValue: 0
+nextSplitAttribute: Population
+mse: 459.64943360528764
+samples: 602"]
+	193 -> 194
+	195 [label="
+id: 195
+splitValue: 0
+mse: 324.62103713062527
+samples: 387
+avgValue: 3.032230671834626"]
+	194 -> 195
+	196 [label="
+id: 196
+splitValue: 1
+mse: 109.21714947873537
+samples: 195
+avgValue: 3.0225541538461536"]
+	194 -> 196
+	197 [label="
+id: 197
+splitValue: 2
+mse: 23.78791385037499
+samples: 20
+avgValue: 3.3515025"]
+	194 -> 197
+	198 [label="
+id: 198
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	194 -> 198
+	199 [label="
+id: 199
+splitValue: 1
+nextSplitAttribute: Population
+mse: 38.995396
+samples: 40"]
+	193 -> 199
+	200 [label="
+id: 200
+splitValue: 0
+mse: 23.456338875000004
+samples: 32
+avgValue: 2.2516875"]
+	199 -> 200
+	201 [label="
+id: 201
+splitValue: 1
+mse: 0.8193015000000005
+samples: 8
+avgValue: 3.76825"]
+	199 -> 201
+	202 [label="
+id: 202
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	199 -> 202
+	203 [label="
+id: 203
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	199 -> 203
+	204 [label="
+id: 204
+splitValue: 2
+nextSplitAttribute: Population
+mse: 271.37648708313213
+samples: 336"]
+	193 -> 204
+	205 [label="
+id: 205
+splitValue: 0
+mse: 179.20221391199274
+samples: 221
+avgValue: 3.112769819004525"]
+	204 -> 205
+	206 [label="
+id: 206
+splitValue: 1
+mse: 89.1030670051934
+samples: 106
+avgValue: 3.029292924528302"]
+	204 -> 206
+	207 [label="
+id: 207
+splitValue: 2
+mse: 1.6629642222222227
+samples: 9
+avgValue: 2.7635555555555555"]
+	204 -> 207
+	208 [label="
+id: 208
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	204 -> 208
+	209 [label="
+id: 209
+splitValue: 3
+nextSplitAttribute: Population
+mse: 1.7574218750000008
+samples: 8"]
+	193 -> 209
+	210 [label="
+id: 210
+splitValue: 0
+mse: 1.7574218750000008
+samples: 8
+avgValue: 2.4346249999999996"]
+	209 -> 210
+	211 [label="
+id: 211
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	209 -> 211
+	212 [label="
+id: 212
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	209 -> 212
+	213 [label="
+id: 213
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	209 -> 213
+	214 [label="
+id: 214
+splitValue: 2
+nextSplitAttribute: Latitude
+mse: 673.6963099699458
+samples: 666"]
+	171 -> 214
+	215 [label="
+id: 215
+splitValue: 0
+nextSplitAttribute: Population
+mse: 449.22553223371585
+samples: 396"]
+	214 -> 215
+	216 [label="
+id: 216
+splitValue: 0
+mse: 375.4056451294472
+samples: 347
+avgValue: 3.50891795389049"]
+	215 -> 216
+	217 [label="
+id: 217
+splitValue: 1
+mse: 65.7847472433404
+samples: 47
+avgValue: 3.222087234042553"]
+	215 -> 217
+	218 [label="
+id: 218
+splitValue: 2
+mse: 0.0
+samples: 2
+avgValue: 5.00001"]
+	215 -> 218
+	219 [label="
+id: 219
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	215 -> 219
+	220 [label="
+id: 220
+splitValue: 1
+nextSplitAttribute: Population
+mse: 20.026047564093332
+samples: 15"]
+	214 -> 220
+	221 [label="
+id: 221
+splitValue: 0
+mse: 20.026047564093332
+samples: 15
+avgValue: 2.9084673333333333"]
+	220 -> 221
+	222 [label="
+id: 222
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	220 -> 222
+	223 [label="
+id: 223
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	220 -> 223
+	224 [label="
+id: 224
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	220 -> 224
+	225 [label="
+id: 225
+splitValue: 2
+nextSplitAttribute: Population
+mse: 189.8558034220157
+samples: 254"]
+	214 -> 225
+	226 [label="
+id: 226
+splitValue: 0
+mse: 168.21520393545094
+samples: 204
+avgValue: 3.575834509803921"]
+	225 -> 226
+	227 [label="
+id: 227
+splitValue: 1
+mse: 21.640367119999997
+samples: 50
+avgValue: 3.5782400000000005"]
+	225 -> 227
+	228 [label="
+id: 228
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	225 -> 228
+	229 [label="
+id: 229
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	225 -> 229
+	230 [label="
+id: 230
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 0.718"]
+	214 -> 230
+	231 [label="
+id: 231
+splitValue: 3
+nextSplitAttribute: Latitude
+mse: 251.12252369709327
+samples: 285"]
+	171 -> 231
+	232 [label="
+id: 232
+splitValue: 0
+nextSplitAttribute: Population
+mse: 148.22432382791754
+samples: 165"]
+	231 -> 232
+	233 [label="
+id: 233
+splitValue: 0
+mse: 142.61468689835442
+samples: 158
+avgValue: 4.163636582278481"]
+	232 -> 233
+	234 [label="
+id: 234
+splitValue: 1
+mse: 3.640939045799999
+samples: 7
+avgValue: 4.705579999999999"]
+	232 -> 234
+	235 [label="
+id: 235
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	232 -> 235
+	236 [label="
+id: 236
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	232 -> 236
+	237 [label="
+id: 237
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.693"]
+	231 -> 237
+	238 [label="
+id: 238
+splitValue: 2
+nextSplitAttribute: Population
+mse: 96.37884920747895
+samples: 119"]
+	231 -> 238
+	239 [label="
+id: 239
+splitValue: 0
+mse: 89.04732798072726
+samples: 110
+avgValue: 4.099985454545454"]
+	238 -> 239
+	240 [label="
+id: 240
+splitValue: 1
+mse: 3.381470325199998
+samples: 8
+avgValue: 4.356879999999999"]
+	238 -> 240
+	241 [label="
+id: 241
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 2.25"]
+	238 -> 241
+	242 [label="
+id: 242
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	238 -> 242
+	243 [label="
+id: 243
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	231 -> 243
+	244 [label="
+id: 244
+splitValue: 3
+nextSplitAttribute: Latitude
+mse: 79.07139446465216
+samples: 341"]
+	0 -> 244
+	245 [label="
+id: 245
+splitValue: 0
+nextSplitAttribute: HouseAge
+mse: 43.73338764092014
+samples: 223"]
+	244 -> 245
+	246 [label="
+id: 246
+splitValue: 0
+nextSplitAttribute: Population
+mse: 10.8930128725647
+samples: 51"]
+	245 -> 246
+	247 [label="
+id: 247
+splitValue: 0
+mse: 6.200659603494997
+samples: 20
+avgValue: 4.6588555000000005"]
+	246 -> 247
+	248 [label="
+id: 248
+splitValue: 1
+mse: 4.089700018267856
+samples: 28
+avgValue: 4.549466071428571"]
+	246 -> 248
+	249 [label="
+id: 249
+splitValue: 2
+mse: 0.0
+samples: 3
+avgValue: 5.00001"]
+	246 -> 249
+	250 [label="
+id: 250
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	246 -> 250
+	251 [label="
+id: 251
+splitValue: 1
+nextSplitAttribute: Population
+mse: 18.446820174727268
+samples: 66"]
+	245 -> 251
+	252 [label="
+id: 252
+splitValue: 0
+mse: 15.849602547074502
+samples: 51
+avgValue: 4.624398431372549"]
+	251 -> 252
+	253 [label="
+id: 253
+splitValue: 1
+mse: 1.5984568364545444
+samples: 11
+avgValue: 4.879463636363638"]
+	251 -> 253
+	254 [label="
+id: 254
+splitValue: 2
+mse: 0.0
+samples: 4
+avgValue: 5.00001"]
+	251 -> 254
+	255 [label="
+id: 255
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	251 -> 255
+	256 [label="
+id: 256
+splitValue: 2
+nextSplitAttribute: Population
+mse: 9.260279706337991
+samples: 50"]
+	245 -> 256
+	257 [label="
+id: 257
+splitValue: 0
+mse: 7.101248957924317
+samples: 37
+avgValue: 4.800034864864865"]
+	256 -> 257
+	258 [label="
+id: 258
+splitValue: 1
+mse: 2.0908200923999987
+samples: 13
+avgValue: 4.884240000000001"]
+	256 -> 258
+	259 [label="
+id: 259
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	256 -> 259
+	260 [label="
+id: 260
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	256 -> 260
+	261 [label="
+id: 261
+splitValue: 3
+nextSplitAttribute: Population
+mse: 1.427543893392856
+samples: 56"]
+	245 -> 261
+	262 [label="
+id: 262
+splitValue: 0
+mse: 1.427543893392856
+samples: 56
+avgValue: 4.958044642857142"]
+	261 -> 262
+	263 [label="
+id: 263
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	261 -> 263
+	264 [label="
+id: 264
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	261 -> 264
+	265 [label="
+id: 265
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	261 -> 265
+	266 [label="
+id: 266
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 0.018370666666666747
+samples: 3"]
+	244 -> 266
+	267 [label="
+id: 267
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 2.292"]
+	266 -> 267
+	268 [label="
+id: 268
+splitValue: 1
+mse: 0.0
+samples: 2
+avgValue: 2.458"]
+	266 -> 268
+	269 [label="
+id: 269
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	266 -> 269
+	270 [label="
+id: 270
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	266 -> 270
+	271 [label="
+id: 271
+splitValue: 2
+nextSplitAttribute: HouseAge
+mse: 11.76379267163893
+samples: 113"]
+	244 -> 271
+	272 [label="
+id: 272
+splitValue: 0
+nextSplitAttribute: Population
+mse: 4.695532858227776
+samples: 18"]
+	271 -> 272
+	273 [label="
+id: 273
+splitValue: 0
+mse: 4.508173120399999
+samples: 16
+avgValue: 4.561755"]
+	272 -> 273
+	274 [label="
+id: 274
+splitValue: 1
+mse: 0.12301296005000004
+samples: 2
+avgValue: 4.752005"]
+	272 -> 274
+	275 [label="
+id: 275
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	272 -> 275
+	276 [label="
+id: 276
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	272 -> 276
+	277 [label="
+id: 277
+splitValue: 1
+nextSplitAttribute: Population
+mse: 2.5749014585599985
+samples: 35"]
+	271 -> 277
+	278 [label="
+id: 278
+splitValue: 0
+mse: 2.5352387482699985
+samples: 30
+avgValue: 4.903808999999999"]
+	277 -> 278
+	279 [label="
+id: 279
+splitValue: 1
+mse: 0.0
+samples: 5
+avgValue: 5.00001"]
+	277 -> 279
+	280 [label="
+id: 280
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	277 -> 280
+	281 [label="
+id: 281
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	277 -> 281
+	282 [label="
+id: 282
+splitValue: 2
+nextSplitAttribute: Population
+mse: 0.41677986866857125
+samples: 35"]
+	271 -> 282
+	283 [label="
+id: 283
+splitValue: 0
+mse: 0.4142436828551721
+samples: 29
+avgValue: 4.977423448275863"]
+	282 -> 283
+	284 [label="
+id: 284
+splitValue: 1
+mse: 0.0
+samples: 6
+avgValue: 5.00001"]
+	282 -> 284
+	285 [label="
+id: 285
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	282 -> 285
+	286 [label="
+id: 286
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	282 -> 286
+	287 [label="
+id: 287
+splitValue: 3
+nextSplitAttribute: Population
+mse: 2.0735847874639983
+samples: 25"]
+	271 -> 287
+	288 [label="
+id: 288
+splitValue: 0
+mse: 2.0735847874639983
+samples: 25
+avgValue: 4.8951288"]
+	287 -> 288
+	289 [label="
+id: 289
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	287 -> 289
+	290 [label="
+id: 290
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	287 -> 290
+	291 [label="
+id: 291
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	287 -> 291
+	292 [label="
+id: 292
+splitValue: 3
+mse: 0.0
+samples: 2
+avgValue: 3.125"]
+	244 -> 292
+}

@@ -1,0 +1,422 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: bmi
+mse: 2055773.2427184465
+samples: 309"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: s4
+mse: 810401.9386792453
+samples: 212"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: sex
+mse: 643106.9574468085
+samples: 188"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: age
+mse: 226531.71000000002
+samples: 100"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+nextSplitAttribute: s1
+mse: 144735.17647058822
+samples: 51"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 119029.375
+samples: 40
+avgValue: 118.625"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+mse: 24646.727272727276
+samples: 11
+avgValue: 107.54545454545455"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 1
+nextSplitAttribute: s1
+mse: 62812.77551020408
+samples: 49"]
+	3 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 30616.64
+samples: 25
+avgValue: 74.88"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+mse: 22484.958333333336
+samples: 24
+avgValue: 103.04166666666667"]
+	7 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+nextSplitAttribute: age
+mse: 397920.71590909094
+samples: 88"]
+	2 -> 10
+	11 [label="
+id: 11
+splitValue: 0
+nextSplitAttribute: s1
+mse: 74270.8695652174
+samples: 23"]
+	10 -> 11
+	12 [label="
+id: 12
+splitValue: 0
+mse: 68450.55
+samples: 20
+avgValue: 88.35"]
+	11 -> 12
+	13 [label="
+id: 13
+splitValue: 1
+mse: 384.0
+samples: 3
+avgValue: 134.0"]
+	11 -> 13
+	14 [label="
+id: 14
+splitValue: 1
+nextSplitAttribute: s1
+mse: 298554.55384615384
+samples: 65"]
+	10 -> 14
+	15 [label="
+id: 15
+splitValue: 0
+mse: 224485.69230769234
+samples: 39
+avgValue: 138.46153846153845"]
+	14 -> 15
+	16 [label="
+id: 16
+splitValue: 1
+mse: 70875.38461538461
+samples: 26
+avgValue: 124.15384615384616"]
+	14 -> 16
+	17 [label="
+id: 17
+splitValue: 1
+nextSplitAttribute: s1
+mse: 86008.625
+samples: 24"]
+	1 -> 17
+	18 [label="
+id: 18
+splitValue: 0
+nextSplitAttribute: age
+mse: 7038.0
+samples: 8"]
+	17 -> 18
+	19 [label="
+id: 19
+splitValue: 0
+nextSplitAttribute: sex
+mse: 604.8
+samples: 5"]
+	18 -> 19
+	20 [label="
+id: 20
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	19 -> 20
+	21 [label="
+id: 21
+splitValue: 1
+mse: 604.8
+samples: 5
+avgValue: 137.2"]
+	19 -> 21
+	22 [label="
+id: 22
+splitValue: 1
+nextSplitAttribute: sex
+mse: 5046.0
+samples: 3"]
+	18 -> 22
+	23 [label="
+id: 23
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	22 -> 23
+	24 [label="
+id: 24
+splitValue: 1
+mse: 5046.0
+samples: 3
+avgValue: 110.0"]
+	22 -> 24
+	25 [label="
+id: 25
+splitValue: 1
+nextSplitAttribute: sex
+mse: 52603.4375
+samples: 16"]
+	17 -> 25
+	26 [label="
+id: 26
+splitValue: 0
+nextSplitAttribute: age
+mse: 9114.800000000001
+samples: 5"]
+	25 -> 26
+	27 [label="
+id: 27
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	26 -> 27
+	28 [label="
+id: 28
+splitValue: 1
+mse: 9114.800000000001
+samples: 5
+avgValue: 203.8"]
+	26 -> 28
+	29 [label="
+id: 29
+splitValue: 1
+nextSplitAttribute: age
+mse: 43182.545454545456
+samples: 11"]
+	25 -> 29
+	30 [label="
+id: 30
+splitValue: 0
+mse: 1152.0
+samples: 2
+avgValue: 205.0"]
+	29 -> 30
+	31 [label="
+id: 31
+splitValue: 1
+mse: 41754.0
+samples: 9
+avgValue: 192.0"]
+	29 -> 31
+	32 [label="
+id: 32
+splitValue: 1
+nextSplitAttribute: s4
+mse: 490888.04123711336
+samples: 97"]
+	0 -> 32
+	33 [label="
+id: 33
+splitValue: 0
+nextSplitAttribute: sex
+mse: 386668.65277777775
+samples: 72"]
+	32 -> 33
+	34 [label="
+id: 34
+splitValue: 0
+nextSplitAttribute: s1
+mse: 267222.0
+samples: 49"]
+	33 -> 34
+	35 [label="
+id: 35
+splitValue: 0
+nextSplitAttribute: age
+mse: 216921.46875
+samples: 32"]
+	34 -> 35
+	36 [label="
+id: 36
+splitValue: 0
+mse: 127906.76923076923
+samples: 13
+avgValue: 213.30769230769232"]
+	35 -> 36
+	37 [label="
+id: 37
+splitValue: 1
+mse: 78503.15789473683
+samples: 19
+avgValue: 250.21052631578948"]
+	35 -> 37
+	38 [label="
+id: 38
+splitValue: 1
+nextSplitAttribute: age
+mse: 41716.117647058825
+samples: 17"]
+	34 -> 38
+	39 [label="
+id: 39
+splitValue: 0
+mse: 4232.0
+samples: 2
+avgValue: 174.0"]
+	38 -> 39
+	40 [label="
+id: 40
+splitValue: 1
+mse: 34953.73333333333
+samples: 15
+avgValue: 211.86666666666667"]
+	38 -> 40
+	41 [label="
+id: 41
+splitValue: 1
+nextSplitAttribute: age
+mse: 116489.3043478261
+samples: 23"]
+	33 -> 41
+	42 [label="
+id: 42
+splitValue: 0
+nextSplitAttribute: s1
+mse: 34887.71428571429
+samples: 7"]
+	41 -> 42
+	43 [label="
+id: 43
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 187.0"]
+	42 -> 43
+	44 [label="
+id: 44
+splitValue: 1
+mse: 31680.833333333332
+samples: 6
+avgValue: 248.16666666666666"]
+	42 -> 44
+	45 [label="
+id: 45
+splitValue: 1
+nextSplitAttribute: s1
+mse: 73935.0
+samples: 16"]
+	41 -> 45
+	46 [label="
+id: 46
+splitValue: 0
+mse: 32878.0
+samples: 9
+avgValue: 193.33333333333334"]
+	45 -> 46
+	47 [label="
+id: 47
+splitValue: 1
+mse: 40210.0
+samples: 7
+avgValue: 208.0"]
+	45 -> 47
+	48 [label="
+id: 48
+splitValue: 1
+nextSplitAttribute: sex
+mse: 98894.64
+samples: 25"]
+	32 -> 48
+	49 [label="
+id: 49
+splitValue: 0
+nextSplitAttribute: age
+mse: 54132.0
+samples: 10"]
+	48 -> 49
+	50 [label="
+id: 50
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 306.0"]
+	49 -> 50
+	51 [label="
+id: 51
+splitValue: 1
+nextSplitAttribute: s1
+mse: 40930.88888888889
+samples: 9"]
+	49 -> 51
+	52 [label="
+id: 52
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	51 -> 52
+	53 [label="
+id: 53
+splitValue: 1
+mse: 40930.88888888889
+samples: 9
+avgValue: 184.88888888888889"]
+	51 -> 53
+	54 [label="
+id: 54
+splitValue: 1
+nextSplitAttribute: age
+mse: 16581.73333333333
+samples: 15"]
+	48 -> 54
+	55 [label="
+id: 55
+splitValue: 0
+nextSplitAttribute: s1
+mse: 264.5
+samples: 2"]
+	54 -> 55
+	56 [label="
+id: 56
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	55 -> 56
+	57 [label="
+id: 57
+splitValue: 1
+mse: 264.5
+samples: 2
+avgValue: 231.5"]
+	55 -> 57
+	58 [label="
+id: 58
+splitValue: 1
+nextSplitAttribute: s1
+mse: 13644.307692307691
+samples: 13"]
+	54 -> 58
+	59 [label="
+id: 59
+splitValue: 0
+samples: 0
+avgValue: 0.0"]
+	58 -> 59
+	60 [label="
+id: 60
+splitValue: 1
+mse: 13644.307692307691
+samples: 13
+avgValue: 270.7692307692308"]
+	58 -> 60
+}

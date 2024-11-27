@@ -1,0 +1,1043 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: Longitude
+mse: 19243.446311339787
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 6385.641508471723
+samples: 4218"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: Population
+mse: 2838.73011082111
+samples: 2453"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 2389.443893894171
+samples: 1860"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+mse: 2389.443893894171
+samples: 1860
+avgValue: 2.0017960698924733"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	3 -> 5
+	6 [label="
+id: 6
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	3 -> 6
+	7 [label="
+id: 7
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	3 -> 7
+	8 [label="
+id: 8
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 433.9996824092966
+samples: 549"]
+	2 -> 8
+	9 [label="
+id: 9
+splitValue: 0
+mse: 433.9996824092966
+samples: 549
+avgValue: 2.011094772313297"]
+	8 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	8 -> 10
+	11 [label="
+id: 11
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	8 -> 11
+	12 [label="
+id: 12
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	8 -> 12
+	13 [label="
+id: 13
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 15.165510727272732
+samples: 44"]
+	2 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+mse: 15.165510727272732
+samples: 44
+avgValue: 1.9597272727272725"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	13 -> 15
+	16 [label="
+id: 16
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	13 -> 16
+	17 [label="
+id: 17
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	13 -> 17
+	18 [label="
+id: 18
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	2 -> 18
+	19 [label="
+id: 19
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 3018.1639726983267
+samples: 1759"]
+	1 -> 19
+	20 [label="
+id: 20
+splitValue: 0
+nextSplitAttribute: Population
+mse: 3011.6014207740877
+samples: 1758"]
+	19 -> 20
+	21 [label="
+id: 21
+splitValue: 0
+mse: 2485.499441818745
+samples: 1333
+avgValue: 2.719633555888972"]
+	20 -> 21
+	22 [label="
+id: 22
+splitValue: 1
+mse: 492.6576835453797
+samples: 395
+avgValue: 2.6751120253164555"]
+	20 -> 22
+	23 [label="
+id: 23
+splitValue: 2
+mse: 31.92297245009667
+samples: 30
+avgValue: 2.885833666666666"]
+	20 -> 23
+	24 [label="
+id: 24
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	20 -> 24
+	25 [label="
+id: 25
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 0.14999"]
+	19 -> 25
+	26 [label="
+id: 26
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	19 -> 26
+	27 [label="
+id: 27
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	19 -> 27
+	28 [label="
+id: 28
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 13.561833333333336
+samples: 6"]
+	1 -> 28
+	29 [label="
+id: 29
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 3.5"]
+	28 -> 29
+	30 [label="
+id: 30
+splitValue: 1
+nextSplitAttribute: Population
+mse: 9.858780000000001
+samples: 5"]
+	28 -> 30
+	31 [label="
+id: 31
+splitValue: 0
+mse: 9.858780000000001
+samples: 5
+avgValue: 1.392"]
+	30 -> 31
+	32 [label="
+id: 32
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	30 -> 32
+	33 [label="
+id: 33
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	30 -> 33
+	34 [label="
+id: 34
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	30 -> 34
+	35 [label="
+id: 35
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	28 -> 35
+	36 [label="
+id: 36
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	28 -> 36
+	37 [label="
+id: 37
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	1 -> 37
+	38 [label="
+id: 38
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 1277.4613516786396
+samples: 1991"]
+	0 -> 38
+	39 [label="
+id: 39
+splitValue: 0
+nextSplitAttribute: Population
+mse: 462.85821095979946
+samples: 1065"]
+	38 -> 39
+	40 [label="
+id: 40
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 381.9382665450939
+samples: 833"]
+	39 -> 40
+	41 [label="
+id: 41
+splitValue: 0
+mse: 381.9382665450939
+samples: 833
+avgValue: 1.1546230612244899"]
+	40 -> 41
+	42 [label="
+id: 42
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	40 -> 42
+	43 [label="
+id: 43
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	40 -> 43
+	44 [label="
+id: 44
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	40 -> 44
+	45 [label="
+id: 45
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 77.88824928909952
+samples: 211"]
+	39 -> 45
+	46 [label="
+id: 46
+splitValue: 0
+mse: 77.88824928909952
+samples: 211
+avgValue: 1.104909952606635"]
+	45 -> 46
+	47 [label="
+id: 47
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	45 -> 47
+	48 [label="
+id: 48
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	45 -> 48
+	49 [label="
+id: 49
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	45 -> 49
+	50 [label="
+id: 50
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 2.4511472380952384
+samples: 21"]
+	39 -> 50
+	51 [label="
+id: 51
+splitValue: 0
+mse: 2.4511472380952384
+samples: 21
+avgValue: 1.0551904761904762"]
+	50 -> 51
+	52 [label="
+id: 52
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	50 -> 52
+	53 [label="
+id: 53
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	50 -> 53
+	54 [label="
+id: 54
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	50 -> 54
+	55 [label="
+id: 55
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	39 -> 55
+	56 [label="
+id: 56
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 679.9649624743981
+samples: 896"]
+	38 -> 56
+	57 [label="
+id: 57
+splitValue: 0
+nextSplitAttribute: Population
+mse: 676.8971213009368
+samples: 891"]
+	56 -> 57
+	58 [label="
+id: 58
+splitValue: 0
+mse: 573.3420283292519
+samples: 710
+avgValue: 1.6293663521126758"]
+	57 -> 58
+	59 [label="
+id: 59
+splitValue: 1
+mse: 89.47654380075294
+samples: 153
+avgValue: 1.6557190196078433"]
+	57 -> 59
+	60 [label="
+id: 60
+splitValue: 2
+mse: 13.393958857142858
+samples: 28
+avgValue: 1.7824285714285713"]
+	57 -> 60
+	61 [label="
+id: 61
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	57 -> 61
+	62 [label="
+id: 62
+splitValue: 1
+nextSplitAttribute: Population
+mse: 0.0015552000000000029
+samples: 5"]
+	56 -> 62
+	63 [label="
+id: 63
+splitValue: 0
+mse: 0.0015552000000000029
+samples: 5
+avgValue: 0.8533999999999999"]
+	62 -> 63
+	64 [label="
+id: 64
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	62 -> 64
+	65 [label="
+id: 65
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	62 -> 65
+	66 [label="
+id: 66
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	62 -> 66
+	67 [label="
+id: 67
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	56 -> 67
+	68 [label="
+id: 68
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	56 -> 68
+	69 [label="
+id: 69
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 12.729565714285716
+samples: 28"]
+	38 -> 69
+	70 [label="
+id: 70
+splitValue: 0
+nextSplitAttribute: Population
+mse: 0.8794275
+samples: 6"]
+	69 -> 70
+	71 [label="
+id: 71
+splitValue: 0
+mse: 0.8794275
+samples: 6
+avgValue: 1.7785000000000002"]
+	70 -> 71
+	72 [label="
+id: 72
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	70 -> 72
+	73 [label="
+id: 73
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	70 -> 73
+	74 [label="
+id: 74
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	70 -> 74
+	75 [label="
+id: 75
+splitValue: 1
+nextSplitAttribute: Population
+mse: 11.847148772727273
+samples: 22"]
+	69 -> 75
+	76 [label="
+id: 76
+splitValue: 0
+mse: 11.847148772727273
+samples: 22
+avgValue: 1.7533181818181818"]
+	75 -> 76
+	77 [label="
+id: 77
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	75 -> 77
+	78 [label="
+id: 78
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	75 -> 78
+	79 [label="
+id: 79
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	75 -> 79
+	80 [label="
+id: 80
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	69 -> 80
+	81 [label="
+id: 81
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	69 -> 81
+	82 [label="
+id: 82
+splitValue: 3
+mse: 0.0
+samples: 2
+avgValue: 1.625"]
+	38 -> 82
+	83 [label="
+id: 83
+splitValue: 2
+nextSplitAttribute: AveRooms
+mse: 7595.376300796315
+samples: 5804"]
+	0 -> 83
+	84 [label="
+id: 84
+splitValue: 0
+nextSplitAttribute: Population
+mse: 3610.1897394384196
+samples: 4014"]
+	83 -> 84
+	85 [label="
+id: 85
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 2807.6876315392547
+samples: 2706"]
+	84 -> 85
+	86 [label="
+id: 86
+splitValue: 0
+mse: 2807.6876315392547
+samples: 2706
+avgValue: 2.0283125535846267"]
+	85 -> 86
+	87 [label="
+id: 87
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	85 -> 87
+	88 [label="
+id: 88
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	85 -> 88
+	89 [label="
+id: 89
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	85 -> 89
+	90 [label="
+id: 90
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 758.3483816024113
+samples: 1207"]
+	84 -> 90
+	91 [label="
+id: 91
+splitValue: 0
+mse: 758.3483816024113
+samples: 1207
+avgValue: 1.925301748135874"]
+	90 -> 91
+	92 [label="
+id: 92
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	90 -> 92
+	93 [label="
+id: 93
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	90 -> 93
+	94 [label="
+id: 94
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	90 -> 94
+	95 [label="
+id: 95
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 31.769521782178217
+samples: 101"]
+	84 -> 95
+	96 [label="
+id: 96
+splitValue: 0
+mse: 31.769521782178217
+samples: 101
+avgValue: 1.8072673267326729"]
+	95 -> 96
+	97 [label="
+id: 97
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	95 -> 97
+	98 [label="
+id: 98
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	95 -> 98
+	99 [label="
+id: 99
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	95 -> 99
+	100 [label="
+id: 100
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	84 -> 100
+	101 [label="
+id: 101
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 2881.808753971457
+samples: 1790"]
+	83 -> 101
+	102 [label="
+id: 102
+splitValue: 0
+nextSplitAttribute: Population
+mse: 2877.5592380499625
+samples: 1789"]
+	101 -> 102
+	103 [label="
+id: 103
+splitValue: 0
+mse: 2285.2330641780545
+samples: 1316
+avgValue: 2.937401215805471"]
+	102 -> 103
+	104 [label="
+id: 104
+splitValue: 1
+mse: 518.3086288481272
+samples: 422
+avgValue: 2.9528493601895733"]
+	102 -> 104
+	105 [label="
+id: 105
+splitValue: 2
+mse: 72.8960071661647
+samples: 51
+avgValue: 2.7959035294117642"]
+	102 -> 105
+	106 [label="
+id: 106
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	102 -> 106
+	107 [label="
+id: 107
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 0.875"]
+	101 -> 107
+	108 [label="
+id: 108
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	101 -> 108
+	109 [label="
+id: 109
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	101 -> 109
+	110 [label="
+id: 110
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	83 -> 110
+	111 [label="
+id: 111
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	83 -> 111
+	112 [label="
+id: 112
+splitValue: 3
+nextSplitAttribute: AveRooms
+mse: 2165.06792754671
+samples: 2434"]
+	0 -> 112
+	113 [label="
+id: 113
+splitValue: 0
+nextSplitAttribute: Population
+mse: 615.2854368746639
+samples: 1233"]
+	112 -> 113
+	114 [label="
+id: 114
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 505.83513568545516
+samples: 807"]
+	113 -> 114
+	115 [label="
+id: 115
+splitValue: 0
+mse: 505.83513568545516
+samples: 807
+avgValue: 1.4016530978934325"]
+	114 -> 115
+	116 [label="
+id: 116
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	114 -> 116
+	117 [label="
+id: 117
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	114 -> 117
+	118 [label="
+id: 118
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	114 -> 118
+	119 [label="
+id: 119
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 97.1748594974359
+samples: 390"]
+	113 -> 119
+	120 [label="
+id: 120
+splitValue: 0
+mse: 97.1748594974359
+samples: 390
+avgValue: 1.2978358974358974"]
+	119 -> 120
+	121 [label="
+id: 121
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	119 -> 121
+	122 [label="
+id: 122
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	119 -> 122
+	123 [label="
+id: 123
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	119 -> 123
+	124 [label="
+id: 124
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 9.208602285714285
+samples: 35"]
+	113 -> 124
+	125 [label="
+id: 125
+splitValue: 0
+mse: 9.208602285714285
+samples: 35
+avgValue: 1.2851428571428571"]
+	124 -> 125
+	126 [label="
+id: 126
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	124 -> 126
+	127 [label="
+id: 127
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	124 -> 127
+	128 [label="
+id: 128
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	124 -> 128
+	129 [label="
+id: 129
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 1.344"]
+	113 -> 129
+	130 [label="
+id: 130
+splitValue: 1
+nextSplitAttribute: Population
+mse: 1296.6115058343296
+samples: 1180"]
+	112 -> 130
+	131 [label="
+id: 131
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 989.471557767314
+samples: 759"]
+	130 -> 131
+	132 [label="
+id: 132
+splitValue: 0
+mse: 984.9606337473284
+samples: 756
+avgValue: 2.1086407010582007"]
+	131 -> 132
+	133 [label="
+id: 133
+splitValue: 1
+mse: 0.00015000000000000026
+samples: 3
+avgValue: 0.88"]
+	131 -> 133
+	134 [label="
+id: 134
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	131 -> 134
+	135 [label="
+id: 135
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	131 -> 135
+	136 [label="
+id: 136
+splitValue: 1
+nextSplitAttribute: AveBedrms
+mse: 211.3676686824926
+samples: 337"]
+	130 -> 136
+	137 [label="
+id: 137
+splitValue: 0
+mse: 211.3676686824926
+samples: 337
+avgValue: 1.7616498516320473"]
+	136 -> 137
+	138 [label="
+id: 138
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	136 -> 138
+	139 [label="
+id: 139
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	136 -> 139
+	140 [label="
+id: 140
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	136 -> 140
+	141 [label="
+id: 141
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 68.32236728571428
+samples: 84"]
+	130 -> 141
+	142 [label="
+id: 142
+splitValue: 0
+mse: 68.32236728571428
+samples: 84
+avgValue: 2.0396428571428564"]
+	141 -> 142
+	143 [label="
+id: 143
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	141 -> 143
+	144 [label="
+id: 144
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	141 -> 144
+	145 [label="
+id: 145
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	141 -> 145
+	146 [label="
+id: 146
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	130 -> 146
+	147 [label="
+id: 147
+splitValue: 2
+nextSplitAttribute: AveBedrms
+mse: 7.483467809523811
+samples: 21"]
+	112 -> 147
+	148 [label="
+id: 148
+splitValue: 0
+nextSplitAttribute: Population
+mse: 1.6809293333333335
+samples: 6"]
+	147 -> 148
+	149 [label="
+id: 149
+splitValue: 0
+mse: 1.6809293333333335
+samples: 6
+avgValue: 2.516666666666667"]
+	148 -> 149
+	150 [label="
+id: 150
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	148 -> 150
+	151 [label="
+id: 151
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	148 -> 151
+	152 [label="
+id: 152
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	148 -> 152
+	153 [label="
+id: 153
+splitValue: 1
+nextSplitAttribute: Population
+mse: 3.2654969333333344
+samples: 15"]
+	147 -> 153
+	154 [label="
+id: 154
+splitValue: 0
+mse: 3.2654969333333344
+samples: 15
+avgValue: 1.7472666666666672"]
+	153 -> 154
+	155 [label="
+id: 155
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	153 -> 155
+	156 [label="
+id: 156
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	153 -> 156
+	157 [label="
+id: 157
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	153 -> 157
+	158 [label="
+id: 158
+splitValue: 2
+samples: 0
+avgValue: 0.0"]
+	147 -> 158
+	159 [label="
+id: 159
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	147 -> 159
+	160 [label="
+id: 160
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	112 -> 160
+}
