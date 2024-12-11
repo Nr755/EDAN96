@@ -137,3 +137,8 @@ ui-tests/playwright-report
 .pnp.*
 ui-tests/.yarn/*
 ui-tests/.pnp.*
+lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2_builder.lock
+lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2.incomplete_info.lock
+lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10-test.arrow
+lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10-train.arrow
+lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_info.json
