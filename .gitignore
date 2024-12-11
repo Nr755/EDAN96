@@ -142,3 +142,5 @@ lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2.incomplete_info.l
 lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10-test.arrow
 lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/cifar10-train.arrow
 lab5/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2/dataset_info.json
+lab5/cifar100/test-00000-of-00001.parquet
+lab5/cifar100/train-00000-of-00001.parquet
